@@ -41,4 +41,20 @@ html, body{
     .btn{
         margin-bottom: 1rem;
     }
+
+    .title__player, .title__ia{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .carta{
+        width: 90px;
+        position: relative;
+        left: 130px;
+        margin-left: -50px;
+    }
+    
+    #jugador-cartas, #id-cartas{
+        height: 160px;
+    }
 }
