@@ -2,10 +2,12 @@ html, body{
     margin: 0;
     background-color: #15b11b;
     overflow-x:hidden;
+    width: 100%;
 }
 
 .header{
     background-color: rgb(26, 26, 26);
+    width: 100%;
 }
 
 
@@ -24,4 +26,19 @@ html, body{
 
 #jugador-cartas, #id-cartas{
     height: 180px;
+}
+
+
+
+/* responsive */
+
+@media(max-width: 490px){
+    .header{
+        padding: 1rem 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .btn{
+        margin-bottom: 1rem;
+    }
 }

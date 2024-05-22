@@ -125,7 +125,7 @@ const turnoIA = (puntosMinimos) => {
         } else if (puntosIA < 21 && puntosJugador <= 21){
             alert('BlackJack Haz Ganado!!!');
         }
-    }, 100)
+    }, 1000)
 }
 
 
