@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Script -->
+    <script src="./assets/js/underscore.js" defer></script>
+    <script src="./assets/js/juego.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">BlackJack</h1>
+    </header>
+    <div class="row mt-2">
+        <div class="col text-center">
+            <button class="btn btn-danger mr-2">Nuevo</button>
+            <button class="btn btn-primary mr-2">Pedir</button>
+            <button class="btn btn-primary">Detener</button>
+        </div>
+    </div>
+
+    <div class="row container">
+        <div class="col">
+            <h1>Jugador | <small>0</small></h1>
+            <div id="jugador-cartas">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="row container">
+        <div class="col">
+            <h1>IA | <small>0</small></h1>
+            <div id="ia-cartas">
+                <!-- <img class="carta" src="assets/cartas/3D.png" alt=""> -->
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

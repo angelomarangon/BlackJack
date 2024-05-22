@@ -1,0 +1,27 @@
+html, body{
+    margin: 0;
+    background-color: #15b11b;
+    overflow-x:hidden;
+}
+
+.header{
+    background-color: rgb(26, 26, 26);
+}
+
+
+.header__title{
+    text-align: center;
+    color: white;
+    
+}
+
+.carta{
+    width: 100px;
+    position: relative;
+    left: 80px;
+    margin-left: -50px;
+}
+
+#jugador-cartas, #id-cartas{
+    height: 180px;
+}
