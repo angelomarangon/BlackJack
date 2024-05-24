@@ -122,7 +122,7 @@ const miModulo = (() => {
             } else if (puntosIA < 21 && puntosMinimos <= 21) {
                 alert('BlackJack Haz Ganado!!!');
             }
-        }, 100)
+        }, 1000)
     }
 
     const turnoIA = (puntosMinimos) => {
